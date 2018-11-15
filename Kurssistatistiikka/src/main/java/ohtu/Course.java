@@ -8,7 +8,12 @@ public class Course {
     private String fullName;
     private String term;
     private String year;
+    private int week;
     private int[] exercises;
+
+    public int getWeek() {
+        return week;
+    }
 
     public String getName() {
         return name;
@@ -42,6 +47,12 @@ public class Course {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void setWeek(int week) {
+        this.week = week;
+    }
+    
+    
 
     public void setFullName(String fullName) {
         this.fullName = fullName;
